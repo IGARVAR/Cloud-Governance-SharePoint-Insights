@@ -51,4 +51,4 @@ $timestamp = Get-Date -Format "yyyyMMdd_HHmm"
 $exportPath = "$env:USERPROFILE\Documents\SP_Site_Sharing_Status_$timestamp.csv"
 $report | Export-Csv -Path $exportPath -NoTypeInformation -Encoding UTF8
 
-Write-Host "`nReport saved to: $exportPath" -ForegroundColor Green
+Write-Host "`nReport saved to: $exportPath" -ForegroundColor Green 
